@@ -1,0 +1,24 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+    /* ! Text Property */
+    /* text-decoration: underline; */
+    /* text-decoration-style: dotted; */
+
+    /* ! Text Shadow */
+    text-shadow: 3px 3px 4px red;
+}
+
+
+.card{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-color: #C1BAA1;
+    box-sizing: border-box;
+    padding: 20px;
+}

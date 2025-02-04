@@ -1,0 +1,40 @@
+/* ! External CSS .css  */
+
+
+/* ! Universal Selector */
+/* *{
+    color: blue;
+} */
+
+
+/* ! Class Selector */
+/* .chacha{
+    background-color: bisque;
+    color: black;
+} */
+
+/* ! ID Selector */
+/* #a{
+    color: blue;
+    background-color: chartreuse;
+} */
+
+
+/* ! Attribute Selector */
+/* input[type="text"]{
+    color: deeppink;
+} */
+
+
+/* ! Selector Presedence   #id  >  .class  >  tag */
+p{
+    color: yellow;
+}
+
+.b1{
+    color: green;
+}
+
+#a1{
+    color: red;
+}

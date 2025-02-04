@@ -1,0 +1,131 @@
+/* ! Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1{
+    font-family: "Poppins", serif;
+    margin-top: 10px;
+}
+
+/* ! Nav Bar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    padding: 20px;
+    background-color: #EAE4DD;
+}
+
+
+.navbar{
+    width: 100%;
+    background-color: #FAB12F;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h2{
+    font-family: "Poppins", serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.make_dashed{
+    border: none;
+    border-top: 1px  dashed red;
+}
+
+p{
+    font-family: "Poppins", serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#bg{
+    width: 400px;
+    height: 240px;
+    margin: 0px auto;
+    background-image: url(https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9nfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+}
+
+h4{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+}
+
+ul{
+    padding-left: 50px;
+}
+
+ul li{
+    
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-family: "Poppins", serif;
+}
+
+
+ol{
+    padding-left: 60px;
+    font-family: "Poppins", serif;
+}
+
+ol li{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-family: "Poppins", serif;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #3D3D3D;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.first{
+    border-radius: 8px;
+    border: 0.05px solid #A6AEBF;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 3px 2px 10px #504f4f;
+}
+
+.second{
+    border-radius: 8px;
+    border: 0.05px solid #A6AEBF;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 3px 2px 10px #504f4f;
+}
